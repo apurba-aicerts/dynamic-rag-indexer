@@ -1,0 +1,34 @@
+# Generated index data
+.rag_index/
+
+# Python bytecode and virtual environments
+__pycache__/
+*.py[cod]
+rag_env/
+.venv/
+venv/
+env/
+
+# Local environment variables and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Test and tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Logs and operating system files
+*.log
+.DS_Store
+Thumbs.db
